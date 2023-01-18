@@ -1,17 +1,22 @@
 <template>
   <div id="app">
- 
     <HelloWorld />
+    <Button>
+      text
+    </Button>
+
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Button from './components/vue-button.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Button
   }
 }
 </script>
