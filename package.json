@@ -1,18 +1,18 @@
 {
   "name": "vue-hello-world-simple-mohaddsw",
   "description": "A simple vuejs Hello World plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "author": {
     "name": "Mohaddsw",
     "email": "mhds.rahimi@gmail.com"
-},
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-library" : "vue-cli-service build --target lib --name vue-hello-world-simple ./src/install.js",
-    "main" : ".dist/vue-hello-world-simple.common.js"
+    "build-library": "vue-cli-service build --target lib --name vue-hello-world-simple ./src/install.js",
+    "main": ".dist/vue-hello-world-simple.common.js"
   },
   "dependencies": {
     "core-js": "^3.8.3",
