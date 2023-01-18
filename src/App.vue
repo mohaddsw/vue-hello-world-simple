@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <HelloWorld />
     <Button>
       text
     </Button>
@@ -9,13 +8,11 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import Button from './components/vue-button.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     Button
   }
 }
