@@ -3,7 +3,7 @@
   "description": "A simple vuejs Hello World plugin",
   "version": "0.1.6",
   "private": false,
-  "main": ".dist/vue-hello-world-simple.common.js",
+  "main": "./dist/vue-hello-world-simple.common.js",
   "author": {
     "name": "Mohaddsw",
     "email": "mhds.rahimi@gmail.com"
