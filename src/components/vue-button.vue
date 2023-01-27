@@ -17,18 +17,15 @@ export default {
     return {
       styles: {
         backgroundColor: this.color,
-        padding: "10px 25px",
-        outline: "none",
-        cursor: "pointer",
-        border: "1px solid rgb(126, 125, 125)",
-        borderRadius: "2px",
+     
+      
       },
     };
   },
 };
 </script>
 
-<style scoped>
+<style  scoped>
 button {
   padding: 10px 25px;
   outline: none;
