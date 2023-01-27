@@ -16,26 +16,28 @@ export default {
   data() {
     return {
       styles: {
-        backgroundColor: this.color,     
+        backgroundColor: this.color,
+        padding: "10px 25px",
+        outline: "none",
+        cursor: "pointer",
+        border: "1px solid rgb(126, 125, 125)",
+        borderRadius: "2px",
       },
     };
   },
 };
 </script>
 
-<style  scoped>
-button{
-    padding: 10px 25px;
-    outline: none;
-    cursor: pointer;
-    border: 1px solid rgb(126, 125, 125);
-    border-radius: 2px;
-
-
-    
+<style scoped>
+button {
+  padding: 10px 25px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid rgb(126, 125, 125);
+  border-radius: 2px;
 }
-button:hover{
-    background: linear-gradient(0,rgb(126, 125, 125),rgb(126, 125, 125));
-    color:#fff
+button:hover {
+  background: linear-gradient(0, rgb(126, 125, 125), rgb(126, 125, 125));
+  color: #fff;
 }
 </style>
