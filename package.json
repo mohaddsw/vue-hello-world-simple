@@ -1,7 +1,7 @@
 {
   "name": "vue-hello-world-simple-mohaddsw",
   "description": "A simple vuejs Hello World plugin",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "private": false,
   "main": "./dist/vue-hello-world-simple.common.js",
   "author": {
