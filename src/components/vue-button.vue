@@ -25,11 +25,13 @@ export default {
       },
     };
   },
+  mounted() {
+    console.log(this.styles);
+  },
 };
 </script>
 
 <style scoped>
-
 button:hover {
   background: linear-gradient(0, rgb(126, 125, 125), rgb(126, 125, 125));
   color: #fff;
