@@ -17,22 +17,19 @@ export default {
     return {
       styles: {
         backgroundColor: this.color,
-     
-      
+        borderRadius: "2px",
+        padding: "10px 25px",
+        outline: "none",
+        cursor: "pointer",
+        border: "1px solid rgb(126, 125, 125)",
       },
     };
   },
 };
 </script>
 
-<style  scoped>
-button {
-  padding: 10px 25px;
-  outline: none;
-  cursor: pointer;
-  border: 1px solid rgb(126, 125, 125);
-  border-radius: 2px;
-}
+<style scoped>
+
 button:hover {
   background: linear-gradient(0, rgb(126, 125, 125), rgb(126, 125, 125));
   color: #fff;
